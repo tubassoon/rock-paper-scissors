@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background: #829499;
+    color: #192221;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+body {
+    background-color: #192221;
+}
+
+.score {
+    margin: 20px auto;
+    background-color: #8C8165;    ;
+    border: 3px solid #F3F4F5;
+    border-radius: 4px;
+    text-align: center;
+    width: 300px;
+    font-size: 46px;
+    color: #F3F4F5;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: #847D7F;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 2px 10px;
+    border: 2px solid #F3F4F5;
+    border-radius: 4px;
+}
+
+#player-label {
+    position: absolute;
+    top: 25px;
+    left: -35px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 25px;
+    right: -45px;
+}
+
+.result {
+    margin-top: 50px;
+    text-align: center;
+    color: #F3F4F5;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.choices {
+    margin: 50px;
+    text-align: center;
+    color: #F3F4F5;
+    font-size: 30px;
+}
+
+.weapon {
+    display: inline-block;
+    
+}
+
+.weapon img {
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+
+.green-glow img {
+    border: 13px solid #4dcc7d;
+    box-shadow: 0 0 18px #31b43a;
+}
+
+.red-glow img {
+    border: 13px solid #fc121b;
+    box-shadow: 0 0 18px #d01115;
+}
+
+.grey-glow img{
+    border: 13px solid #8C8165;
+    box-shadow: 0 0 18px #837450;
+}
+
+.weapon img:hover {
+    cursor: pointer;
+    border: 3px solid #F3F4F5;
+}
+
+
