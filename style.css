@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 header {
@@ -10,24 +9,41 @@ header {
     color: #192221;
     text-align: center;
     padding: 20px;
-    font-size: 40px;
-    font-weight: 600;
+}
+
+#title {
+    font-family: 'Bangers', cursive;
+    font-size: 62px;
 }
 
 body {
     background-color: #192221;
 }
 
+.scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.decision img {
+    width: 160px;
+    border: 3px solid #F3F4F5;
+    border-radius: 15px;
+}
+
 .score {
-    margin: 20px auto;
     background-color: #8C8165;    ;
     border: 3px solid #F3F4F5;
     border-radius: 4px;
     text-align: center;
     width: 300px;
+    height: 120px;
     font-size: 46px;
     color: #F3F4F5;
-    padding: 15px 20px;
+    padding: 28px;
     position: relative;
 }
 
@@ -42,40 +58,47 @@ body {
 
 #player-label {
     position: absolute;
-    top: 25px;
-    left: -35px;
+    top: 32px;
+    left: -50px;
+    color: #002627;
 }
 
 #computer-label {
     position: absolute;
-    top: 25px;
-    right: -45px;
+    top: 32px;
+    right: -50px;
+    color: #600000;
 }
 
 .result {
-    margin-top: 50px;
+    background-color: #847D7F;
+    border: 3px solid #F3F4F5;
+    border-radius: 4px;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
     text-align: center;
     color: #F3F4F5;
-    font-size: 36px;
-    font-weight: 500;
+}
+
+.result h1 {
+    font-size: 56px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 50px;
     text-align: center;
     color: #F3F4F5;
     font-size: 30px;
 }
 
-.weapon {
-    display: inline-block;
-    
-}
-
 .weapon img {
     width: 250px;
-    height: 200px;
-    display: inline-block;
     border-radius: 25px;
     margin: 20px;
     transition: all 0.3s ease;
