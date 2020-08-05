@@ -13,7 +13,7 @@ header {
 
 #title {
     font-family: 'Bangers', cursive;
-    font-size: 62px;
+    font-size: 60px;
 }
 
 body {
@@ -30,8 +30,18 @@ body {
 
 .decision img {
     width: 160px;
-    border: 3px solid #F3F4F5;
+    
     border-radius: 15px;
+}
+
+#player-decision img {
+    border: 2px solid #002627;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+#computer-decision img {
+    border: 2px solid #600000;
+    box-shadow: 0 0 10px #d01115;
 }
 
 .score {
@@ -41,10 +51,15 @@ body {
     text-align: center;
     width: 300px;
     height: 120px;
-    font-size: 46px;
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
     color: #F3F4F5;
-    padding: 28px;
+    padding: 35px;
     position: relative;
+}
+
+.score span {
+    padding: 25px;
 }
 
 .badge {
@@ -58,15 +73,15 @@ body {
 
 #player-label {
     position: absolute;
-    top: 32px;
-    left: -50px;
+    top: 37px;
+    left: -35px;
     color: #002627;
 }
 
 #computer-label {
     position: absolute;
-    top: 32px;
-    right: -50px;
+    top: 37px;
+    right: -35px;
     color: #600000;
 }
 
